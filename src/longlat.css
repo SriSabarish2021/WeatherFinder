@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.altti{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.latti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+}
+.longi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Dosis';
+    font-weight: 600;
+    color: rgb(79, 79, 79);
+
+}
+.tude{
+    font-weight: 900;
+    font-size: 19px;
+    margin-top: 5px;
+    font-family: 'Libre Baskerville';
+}
+
+
+@media screen and (max-width:490px) {
+    .altti{
+        margin-top: 10px;
+    }
+    .latti{
+        font-size: 15px;
+    }
+    .longi{
+        font-size: 15px;    
+    }
+    .tude{
+        font-size: 16px;
+    }
+  }

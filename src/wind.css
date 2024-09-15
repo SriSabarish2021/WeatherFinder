@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+.wind{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.humi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14px;
+    gap: 5px;
+}
+.speedwin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+    gap: 5px;
+
+}
+.icons{
+    font-size: 30px;
+    color: rgb(79, 79, 79);
+}
+.values{
+    font-size: 20px;
+    color: rgb(79, 79, 79);
+    font-family: 'Sofadi One';
+}
+.windname{
+    font-family: 'Delius Swash Caps';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(91, 90, 90);
+}
+
+
+@media screen and (max-width:490px) {
+    .wind{
+        margin-top: 10px;
+    }
+    .icons{
+        font-size: 24px;
+    }
+    .values{
+        font-size: 17px;
+    }
+    .windname{
+        font-size: 12px;
+    }
+  }

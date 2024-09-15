@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#root {
+  max-width: 1280px;
+  min-width: 150px;
+  width: 400px;
+  min-height: 100px;
+  height: auto;
+  border-radius: 10px;
+  background: rgb(182,215,211);
+background: linear-gradient(22deg, rgba(182,215,211,1) 35%, rgba(140,184,214,1) 87%);
+box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.input form{
+  position: relative;
+  width: 330px;
+  border: 1px solid rgb(67, 67, 67);
+  border-radius: 10px;
+  transition-duration:0.4s;
+
+}
+.input input{
+  height: 50px;
+  width: 300px;
+  z-index: 100;
+  padding-left: 10px;
+  border: none;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: 'Kanit';
+  padding-right: 10px;
+  
+}
+.input input:focus {
+  outline: none;
+  border: none;
+}
+.icon{
+  position: absolute;
+  height: 50px;
+  width: 30px;
+  border-radius: 10px;
+  transition-duration:0.6s;
+
+}
+.icon:hover{
+  cursor: pointer;
+  color: rgb(255, 109, 47);
+}
+.input form:hover{
+  cursor: pointer;
+  border-color: rgb(255, 109, 47);
+}
+
+.search{
+  height: 50px;
+  width: 20px;
+}
+
+@media screen and (max-width:490px) {
+  #root {
+    width: 350px;
+    position: absolute;
+  }
+  .block{
+    position: relative;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+  #root {
+    width: 300px;
+  }
+  .input form{
+    width: 270px; 
+  }
+  .input input{
+    width: 240px;
+  }
+}
+
+@media screen and (max-width:330px) {
+  #root {
+    width: 250px;
+  }
+  .input form{
+    width: 230px; 
+  }
+  .input input{
+    width: 200px;
+  }
+}
